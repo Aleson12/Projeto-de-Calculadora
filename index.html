@@ -1,35 +1,35 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="img/icons8-calculadora-49.png" type="image/x-icon"/>
     <title>Calculadora</title>
   </head>
   <body>
     <div class="calc">
-      <div id="result"></div>
+      <div id="result"></div> 
       <div class="container-grid">
-        <button class="grid-item btn" value="+" id="btnSum" onclick="sum()">+</button>
-        <button class="grid-item btn" value="-" id="btnSub" onclick="sub()">-</button>
-        <button class="grid-item btn" value="x" id="btnMult" onclick="multi()">x</button>
-        <button class="grid-item btn" value="/" id="btnDiv" onclick="div()">/</button>
-        <button class="grid-item btn" value="7">7</button>
-        <button class="grid-item btn" value="8">8</button>
-        <button class="grid-item btn" value="9">9</button>
-        <button class="grid-item btn" value="4">4</button>
-        <button class="grid-item btn" value="5">5</button>
-        <button class="grid-item btn" value="6">6</button>
-        <button class="grid-item btn" value="1">1</button>
-        <button class="grid-item btn" value="2">2</button> 
-        <button class="grid-item btn" value="3">3</button>
-        <button class="grid-item btn" value="0">0</button>
-        <button class="grid-item btn" value="." id="btnPoint">.</button>
-        <button class="grid-item btnCancl" id="btnCancl" onclick="cancel()">C</button>
-        <button class="grid-item-equal btnEqual" id="btnEqual" value="equal" onclick="equal()">=</button>
+        <button class="grid-item btn" onclick="calculando('+')">+</button>
+        <button class="grid-item btn" onclick="calculando('-')">-</button>
+        <button class="grid-item btn" onclick="calculando('*')">x</button>
+        <button class="grid-item btn" onclick="calculando('/')">/</button>
+        <button class="grid-item btn" onclick="calculando('7')">7</button>
+        <button class="grid-item btn" onclick="calculando('8')">8</button>
+        <button class="grid-item btn" onclick="calculando('9')">9</button>
+        <button class="grid-item btn" onclick="calculando('4')">4</button>
+        <button class="grid-item btn" onclick="calculando('5')">5</button>
+        <button class="grid-item btn" onclick="calculando('6')">6</button>
+        <button class="grid-item btn" onclick="calculando('1')">1</button>
+        <button class="grid-item btn" onclick="calculando('2')">2</button>
+        <button class="grid-item btn" onclick="calculando('3')">3</button>
+        <button class="grid-item btn" onclick="calculando('0')">0</button>
+        <button class="grid-item btn" onclick="calculando('.')">.</button>
+        <button class="grid-item btnCancl" onclick="cancel()">C</button>
+        <button class="grid-item-equal btnEqual" onclick="equal()">=</button>
       </div>
-    </div>
+    </div> 
     <script src="script.js"></script>
   </body>
-</html> 
+</html>

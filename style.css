@@ -1,68 +1,68 @@
-*{ 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background-color: #9FCADD;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 } 
 
-.calc{
-    border: 1px solid black;
-    border-radius: 16px;
-    height: 499px;
-    width: 559px;
-}  
-
-#result{    
-    display: flex;
-    align-items: center;
-    font-size: 53px;
-    font-family: monospace;
-    color: white;
-    background-color: #242424;
-    height: 128px;
-    padding: 25px;
-    border-radius: 11px 11px 0px 0px;
-    overflow: hidden;
-}  
-
-.container-grid{
-    display: grid;
-    align-items: center;
-    grid-template-columns: auto auto auto auto;
-    justify-items: center;
-    height: 369px;
-    padding: 9px;
-} 
-
-.grid-item{
-    cursor: pointer;
-    width: 130px;
-    padding: 22px;
-    font-family: monospace;
-    font-size: 17px;
+body {
+  background-color: #9fcadd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
 }
 
-.grid-item-equal{
-    grid-column-start: 4;
-    grid-row-start: 2;
-    grid-row-end:6;
-    background-color: #F88A69;
-    border-radius: 0px 0px 10px 0px;
-    cursor: pointer;
-    width: 130px;
-    border: none;
-    height: 279px;
-}   
+.calc {
+  border: 1px solid black;
+  border-radius: 16px;
+  height: 499px;
+  width: 559px;
+}
 
-@media only screen and (min-width:2604px) {
-    .calc{
-        height: 514px;
-    }
+#result {
+  display: flex;
+  align-items: center;
+  font-size: 53px;
+  font-family: monospace;
+  color: white;
+  background-color: #242424;
+  height: 128px;
+  padding: 25px;
+  border-radius: 11px 11px 0px 0px;
+  overflow: hidden;
+}
+
+.container-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto auto;
+  justify-items: center;
+  height: 369px;
+  padding: 9px;
+}
+
+.grid-item {
+  cursor: pointer;
+  width: 130px;
+  padding: 22px;
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.grid-item-equal {
+  grid-column-start: 4;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-color: #f88a69;
+  border-radius: 0px 0px 10px 0px;
+  cursor: pointer;
+  width: 130px;
+  border: none;
+  height: 279px;
+}
+
+@media only screen and (min-width: 2604px) {
+  .calc {
+    height: 514px;
+  }
 }
